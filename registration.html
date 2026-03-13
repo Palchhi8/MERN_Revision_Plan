@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Student Registration </h1>
+    <table border="5">
+    <tr>
+        <th>Student Name:</th>
+        <th>Email</th>
+        <th>Course</th>
+        <th>City</th>
+    </tr>
+<tr>
+    <td>Palchhi Jain</td>
+    <td>jainpalchhi@gmail.com</td>
+    <td>B.Tech</td>
+    <td>Jaipur</td>
+</tr>
+<tr>
+    <td>Samragyi Sharma</td>
+    <td>sharmasamragyi@gmail.com</td>
+    <td>Software Engineering</td>
+    <td>Gwalior</td>
+</tr>
+<tr>
+    <td>Siddhi Gupta</td>
+    <td>siddhigupta@gmail.com</td>
+    <td>BCA</td>
+    <td>Bhopal</td>
+</tr>
+    </table>
+
+    <h1>Student Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type = "text" placeholder="Enter name" id="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type = "email" placeholder="Enter email" id="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type = "password" placeholder="Enter password" id="password"><br><br>
+
+        <label for="age">Age:</label>
+        <input type = "text" placeholder="Enter age" id="age"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio"name="gender"> Male <br>
+        <input type="radio"name="gender"> Female <br><br>
+
+        <label for="skills">Skills:</label> <br>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label> <br>
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label> <br>
+        <input type="checkbox" id="javascript">
+        <label for="javascript">JavaScript</label> <br><br>
+
+          <label for="city">City:</label> <br>
+          <select id="city">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Jaipur</option>
+          </select><br><br>
+
+        <label for = "date of birth">Date of Birth:</label> <br>
+        <input type="date" id="date of birth"><br><br>
+
+        <label for = "upload photo">Upload photo:</label> <br>
+        <input type="file" id="upload photo"><br><br>
+
+
+        <label for = "messages">Messages:</label> <br>
+        <textarea id="messages" placeholder="Enter your messages"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="disabled">Disabled Button</button><br><br>
+
+        <input type = "image" src="submit.png" alt="Submit" >
+
+
+    </form>
+</body>
+</html>
